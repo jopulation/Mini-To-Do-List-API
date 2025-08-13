@@ -1,0 +1,17 @@
+1. 프로젝트 폴더로 이동
+
+2. 가상환경 생성
+python3 -m venv venv
+
+3. 가상환경 활성화
+source venv/bin/activate
+
+4. 패키지 설치
+pip install --upgrade pip
+pip install -r requirements.txt
+
+5. 서버 실행
+만약 app.py가 Flask 또는 FastAPI 서버라면:
+python3 app.py
+또는
+uvicorn app:app --reload
